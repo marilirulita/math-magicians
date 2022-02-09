@@ -1,4 +1,4 @@
-.Container {
+.container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -6,7 +6,7 @@
   padding: 20px;
 }
 
-.Calculator {
+.calculator {
   padding: 20px;
   width: 50%;
   text-align: center;
@@ -14,34 +14,34 @@
   flex-direction: column;
 }
 
-.Result {
+.result {
   text-align: end;
   background-color: darkslategrey;
   color: antiquewhite;
   padding: 10px;
 }
 
-.Row {
+.row {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
 
-.Number {
+.number {
   background-color: azure;
   width: 100%;
   border: 1px solid gray;
   padding: 10px;
 }
 
-.Simbol {
+.simbol {
   background-color: orangered;
   width: 100%;
   border: 1px solid gray;
   padding: 10px;
 }
 
-.Special {
+.special {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
