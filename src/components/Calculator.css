@@ -1,0 +1,48 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.Calculator {
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Result {
+  text-align: end;
+  background-color: darkslategrey;
+  color: antiquewhite;
+  padding: 10px;
+}
+
+.Row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Number {
+  background-color: azure;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.Simbol {
+  background-color: orangered;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.Special {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
