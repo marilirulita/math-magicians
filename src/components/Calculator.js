@@ -15,7 +15,7 @@ class Calculator extends React.Component {
             <div className="number">AC</div>
             <div className="number">+/-</div>
             <div className="number">%</div>
-            <div className="simbol">/</div>
+            <div className="simbol">÷</div>
           </div>
           <div className="row">
             <div className="number">7</div>
@@ -36,10 +36,10 @@ class Calculator extends React.Component {
             <div className="simbol">+</div>
           </div>
           <div className="row">
-            <div className="special">
-              <div className="number">0</div>
+            <div className="row">
+              <div className="special">0</div>
             </div>
-            <div className="special">
+            <div className="row">
               <div className="number">.</div>
               <div className="simbol">=</div>
             </div>
