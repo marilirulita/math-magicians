@@ -66,7 +66,7 @@ export default function calculate(obj, buttonName) {
   }
 
   if (buttonName === '=') {
-    if (obj.next && obj.operation) {
+    if (obj.next && obj.operation && obj.total) {
       return {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,
@@ -105,7 +105,10 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
-
+    // fix bug for press operator without numbers
+    if (!obj.total) {
+      return { total: null, next: null, operation: null };
+    }
     return {
       total: operate(obj.total, obj.next, obj.operation),
       next: null,
