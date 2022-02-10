@@ -35,36 +35,36 @@ class Calculator extends React.Component {
             {next}
           </div>
           <div className="row">
-            <div className="number" onClick={this.clickFunction}>AC</div>
-            <div className="number" onClick={this.clickFunction}>+/-</div>
-            <div className="number" onClick={this.clickFunction}>%</div>
-            <div className="simbol" onClick={this.clickFunction}>÷</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">AC</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">+/-</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">%</div>
+            <div className="simbol" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">÷</div>
           </div>
           <div className="row">
-            <div className="number" onClick={this.clickFunction}>7</div>
-            <div className="number" onClick={this.clickFunction}>8</div>
-            <div className="number" onClick={this.clickFunction}>9</div>
-            <div className="simbol" onClick={this.clickFunction}>x</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">7</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">8</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">9</div>
+            <div className="simbol" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">x</div>
           </div>
           <div className="row">
-            <div className="number" onClick={this.clickFunction}>4</div>
-            <div className="number" onClick={this.clickFunction}>5</div>
-            <div className="number" onClick={this.clickFunction}>6</div>
-            <div className="simbol" onClick={this.clickFunction}>-</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">4</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">5</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">6</div>
+            <div className="simbol" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">-</div>
           </div>
           <div className="row">
-            <div className="number" onClick={this.clickFunction}>1</div>
-            <div className="number" onClick={this.clickFunction}>2</div>
-            <div className="number" onClick={this.clickFunction}>3</div>
-            <div className="simbol" onClick={this.clickFunction}>+</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">1</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">2</div>
+            <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">3</div>
+            <div className="simbol" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">+</div>
           </div>
           <div className="row">
             <div className="row">
-              <div className="special" onClick={this.clickFunction}>0</div>
+              <div className="special" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">0</div>
             </div>
             <div className="row">
-              <div className="number" onClick={this.clickFunction}>.</div>
-              <div className="simbol" onClick={this.clickFunction}>=</div>
+              <div className="number" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">.</div>
+              <div className="simbol" onClick={this.clickFunction} onKeyDown={this.clickFunction} role="button" tabIndex="0">=</div>
             </div>
           </div>
         </div>
