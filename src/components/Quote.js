@@ -12,13 +12,11 @@ const Quote = () => {
   };
 
   useEffect(() => {
-    //    let ignore = false;
     getQuote();
-    //   return () => ignore = true};
   }, []);
 
   return (
-    <div className="containerQuote">
+    <div className="container-quote">
       <p>
         {quote.text}
         <strong>

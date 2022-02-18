@@ -28,10 +28,10 @@ nav ul li {
 }
 
 nav ul li:last-child {
-  border: none
+  border: none;
 }
 
-.containerCalculator {
+.container-calculator {
   display: flex;
   justify-content: space-around;
   padding: 20px;
@@ -90,14 +90,14 @@ nav ul li:last-child {
   width: 100%;
 }
 
-.containerWelcome {
+.container-welcome {
   display: flex;
   justify-content: space-around;
   padding: 20px;
   flex-direction: column;
 }
 
-.containerQuote {
+.container-quote {
   display: flex;
   justify-content: center;
   align-items: center;
