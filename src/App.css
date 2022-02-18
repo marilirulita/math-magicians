@@ -1,8 +1,39 @@
-.container {
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: large;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px 10px;
+  border-right: 1px solid gray;
+}
+
+nav ul li:last-child {
+  border: none
+}
+
+.containerCalculator {
+  display: flex;
+  justify-content: space-around;
   padding: 20px;
 }
 
@@ -57,4 +88,20 @@
 
 .special {
   width: 100%;
+}
+
+.containerWelcome {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.containerQuote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  padding: 20px;
+  margin: 0 auto;
 }
