@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import './App.css';
@@ -15,9 +16,11 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        <Calculator />
-        <Welcome />
-        <Quote />
+        <Routes>
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="/" element={<Welcome />} />
+          <Route path="quote" element={<Quote />} />
+        </Routes>
       </>
     );
   }
