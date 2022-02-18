@@ -21,7 +21,8 @@ const Calculator = () => {
   const { total, operation, next } = state;
 
   return (
-    <div className="container">
+    <div className="container-calculator">
+      <h3>Let&apos;s do some math! </h3>
       <div className="calculator">
         <div className="result">
           {total}
