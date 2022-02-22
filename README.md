@@ -14,7 +14,7 @@
 
 [Heroku Link](https://math-magicians-r.herokuapp.com/math-magicians)
 
-[Netlify Link](https://happy-boyd-d20b3e.netlify.app/math-magicians)
+[Netlify Link](https://happy-boyd-d20b3e.netlify.app/)
 
 
 ## Getting Started
