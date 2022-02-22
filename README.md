@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://marilirulita.github.io/math-magicians/)
+[Heroku Link](https://math-magicians-r.herokuapp.com/math-magicians)
 
 
 ## Getting Started
