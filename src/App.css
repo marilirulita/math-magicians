@@ -13,6 +13,8 @@ nav {
   padding: 20px;
   justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -95,6 +97,8 @@ nav ul li:last-child {
   justify-content: space-around;
   padding: 20px;
   flex-direction: column;
+  margin: 30px auto;
+  max-width: 1000px;
 }
 
 .container-quote {
